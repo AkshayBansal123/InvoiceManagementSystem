@@ -26,9 +26,6 @@ project/
 │
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Getting Started
@@ -40,28 +37,18 @@ Copy code
 Create a virtual environment (recommended):
 
 bash
-Copy code
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Make sure Tesseract OCR is installed:
 
-Windows: Download here
-
-Linux/macOS:
-
-bash
-Copy code
-sudo apt-get install tesseract-ocr
 Run the backend:
 
 bash
-Copy code
 uvicorn main:app --reload
 → Runs at http://127.0.0.1:8000
 
@@ -69,24 +56,20 @@ uvicorn main:app --reload
 Navigate to frontend:
 
 bash
-Copy code
 cd frontend
 Install dependencies:
 
 bash
-Copy code
 npm install
 Start the frontend:
 
 bash
-Copy code
 npm start
 → Runs at http://localhost:3000
 
 🌐 API Endpoints
 Upload invoice
-h
-Copy code
+
 POST /upload-invoice/
 Uploads an invoice (image/PDF screenshot).
 
@@ -95,14 +78,12 @@ Extracts vendor, date, amount, category.
 Stores in SQLite.
 
 Get all invoices
-http
-Copy code
+
 GET /invoices/
 Returns all stored invoices.
 
 Export invoices to CSV
-http
-Copy code
+
 GET /export-csv/
 Exports database records into invoices.csv.
 

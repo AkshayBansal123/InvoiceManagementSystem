@@ -28,9 +28,9 @@ project/
 
 ---
 
-## 🚀 Getting Started
+###🚀 Getting Started
 
-### 🔹 Backend (FastAPI)
+## #🔹 Backend(FastAPI)
 1. Navigate to backend:
    cd backend
 Create a virtual environment (recommended):
@@ -51,7 +51,7 @@ bash
 uvicorn main:app --reload
 → Runs at http://127.0.0.1:8000
 
-🔹 Frontend (React)
+## #🔹 Frontend (React)
 Navigate to frontend:
 
 bash

@@ -32,7 +32,6 @@ project/
 
 ### 🔹 Backend (FastAPI)
 1. Navigate to backend:
-   ```bash
    cd backend
 Create a virtual environment (recommended):
 

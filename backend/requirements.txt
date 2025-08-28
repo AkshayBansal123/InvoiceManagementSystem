@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pytesseract
+Pillow
+opencv-python
+numpy
+transformers
+torch
+regex
+python-dotenv
+scikit-learn
